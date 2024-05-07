@@ -1,0 +1,129 @@
+* {
+  /* DIMENSIONI */
+  width: 100vw;
+  height: 100vh;
+
+  max-width: 100px;
+  min-width: 100px;
+
+  max-height: 100%;
+  min-height: 100%;
+
+  /* MARGIN: distanza tra il bordo verso l'esterno */
+
+  /* Shorthand (applico 10px in tutte le direzioni)*/
+  margin: 10px;
+  /* Shorthand (applico 10px top e bottom, 20px right left */
+  margin: 10px 20px;
+
+  /* Shortand (applico pixel specifici ad ogni direzione */
+  margin: 10px 20px 30px 10px;
+
+  /* Estesa */
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  /* PADDING: distanza tra il bordo ed il contenuto interno di un elemento */
+
+  /* Shorthand (applico 10px in tutte le direzioni)*/
+  padding: 10px;
+  /* Shorthand (applico 10px top e bottom, 20px right left */
+  padding: 10px 20px;
+
+  /* Shortand (applico pixel specifici ad ogni direzione */
+  padding: 10px 20px 30px 10px;
+
+  /* Estesa */
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  /* Colori */
+  color: #4823f5; /* per i testi */
+  background-color: rgba(123, 250, 12, 0.5); /* per gli sfondi */
+
+  /* BORDI */
+
+  /* Shorthand */
+  border: 2px solid red;
+
+  /* Estese */
+  border-top: 2px solid red;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+
+  /* Bordi arrotondati */
+  border-radius: 2px;
+
+  /* Estesa */
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  /* FONT */
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+  /* DISPLAY */
+
+  /* Nascondo l'elemento dal flusso */
+  display: none;
+
+  /* Elementi che occupano l'intera larghezza del padre */
+  display: block;
+
+  /* Elementi che si posizionano in "riga" */
+  display: inline;
+
+  /* Elementi che sono simili agli inline ma a cui possiamo applicare larghezze altezze margini e padding */
+  display: inline-block;
+
+  /* FLEXBOX */
+  /* 
+  Di default, dispone gli elementi in riga (flex-direction:row;)
+  */
+
+  /* Da assegnare al contenitore!!! */
+  display: flex;
+
+  flex-direction: row;
+  flex-direction: row-reverse;
+
+  flex-direction: column;
+  flex-direction: column-reverse;
+
+  justify-content: center;
+  align-items: center;
+
+  /* GRID */
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+  /* POSITION  */
+  /* Default */
+  position: static;
+
+  /* Relative: mi permette di spostare l'elemento RELATIVAMENTE alla sua posizione originale nelle varie direzioni */
+  position: relative;
+  top: 20px;
+
+  /* Absolute: mi permette di posizionare gli elementi in maniera ASSOLUTA rispetto al primo genitore relativo */
+  position: absolute;
+  bottom: 0;
+
+  /* Fixed: posso posiziare un elemento in posizione fissa */
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  /* Sticky: quando l'elemento raggiunge una posizione specificata, diventa fixed. */
+  position: sticky;
+  top: 20px;
+}

@@ -1,0 +1,63 @@
+/* Selettore globale / universale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Selettore di TIPO */
+p {
+  color: green;
+}
+
+/* Selettore di CLASSE */
+.classe {
+  color: red;
+}
+
+/* Selettore di ID */
+#id {
+  color: blue;
+}
+
+/* Selettore MULTIPLO */
+.classe1,
+.classe2 {
+  color: red;
+}
+
+/* Selettore DISCENDENTE */
+padre figlio {
+  /* Stile per l'elemento figlio che è discendente dell'elemento padre */
+}
+
+/* Selettore di FIGLIO DIRETTO */
+padre > figlio {
+  /* Stile per l'elemento figlio che è figlio diretto del padre */
+}
+
+/* Selettore di COMBINAZIONE */
+
+.title.important {
+  color: yellow;
+}
+
+/* Selezione di ATTRIBUTO */
+input[type="text"] {
+  color: red;
+}
+
+/* Pseudo Classi */
+a:hover {
+  color: yellow;
+}
+
+/* Pseudo Elementi */
+
+p:first-child {
+  color: red;
+}
+
+div:nth-child(2) {
+  background: red;
+}
