@@ -127,3 +127,23 @@
   position: sticky;
   top: 20px;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+  /* Stile da applicare fino a che lo schermo non supera 800px */
+}
+
+@media screen and (min-width: 450px) and {
+  /* Stile da applicare da 300px in poi */
+}
+
+@media screen and (min-width: 1000px) {
+  /* Stile da applicare da 300px in poi */
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  h1 {
+  }
+  p {
+  }
+}
