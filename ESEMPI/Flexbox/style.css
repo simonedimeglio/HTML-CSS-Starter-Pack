@@ -1,0 +1,52 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  display: flex;
+  margin: 40px 0;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+img {
+  max-width: 200px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 12px;
+}
+
+section > div {
+  padding: 20px;
+}
+
+section:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 600px) {
+  section,
+  section:nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
