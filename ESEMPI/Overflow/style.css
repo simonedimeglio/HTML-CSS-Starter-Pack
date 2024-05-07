@@ -1,0 +1,36 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 2px solid red;
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.box {
+  width: 9100px;
+  height: 300px;
+  background-color: blue;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.paragraph {
+  height: 100px;
+  overflow: scroll;
+}
