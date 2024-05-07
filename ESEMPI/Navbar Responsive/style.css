@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.desktop-menu ul li {
+  list-style: none;
+}
+
+.desktop-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 451px) {
+  .desktop-menu {
+    display: flex;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
