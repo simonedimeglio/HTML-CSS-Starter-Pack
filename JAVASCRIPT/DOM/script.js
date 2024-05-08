@@ -1,4 +1,4 @@
-// SELETTORI
+// PUNTATORI
 let elementoDaId = document.getElementById("element");
 // let elementoDallaClasse = document.getElementsByClassName("classe");
 // let elementoDaTag = document.getElementsByTagName("div");
