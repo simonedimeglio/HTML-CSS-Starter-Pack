@@ -1,0 +1,32 @@
+.container {
+  border: 2px solid red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 50px;
+  margin: 0 10px;
+  background-color: black;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
