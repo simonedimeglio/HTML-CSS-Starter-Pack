@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const url = "https://jsonplaceholder.typicode.com/user";
+  const url = "https://jsonplaceholder.typicode.com/users";
 
   fetch(url)
     .then((response) => response.json())
