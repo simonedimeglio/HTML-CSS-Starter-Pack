@@ -23,3 +23,9 @@
  *
  * Catturate il risultato e stampatelo in console.
  */
+
+// ASYNC AWAIT
+
+/**
+ * Riscrivere l'esercizio 2, sfruttando però async await.
+ */
